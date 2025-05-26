@@ -8,7 +8,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 
     // Example of using EmailJS or similar service to send emails
     // Replace 'service_id' and 'template_id' with your actual EmailJS IDs
-    emailjs.send('service_id', 'template_id', {
+    emailjs.send('sheena02robo@gmail.com', 'sheena02robo@gmail.com', {
         from_name: name,
         from_email: email,
         message: message
